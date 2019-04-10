@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.title-description-form{
+  margin: 0px 20px;
+  padding: 20px;
+  border: 1px solid black;
+}
+.question-form{
+  margin: 0px 20px;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+form .title {
+  width: 100%;
+  margin-bottom: 10px;
+}
+form .description {
+  width: 100%;
+  margin-bottom: 10px;
+  height: 50px;
+}
+
+form .title {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form .description {
+  width: 100%;
+  margin-bottom: 10px;
+  height: 50px;
+}
+
+form .question-title {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form .question-description {
+  width: 100%;
+  margin-bottom: 10px;
+  /* height: 50px; */
+}
+form .question-option {
+  width: 100%;
+  margin-bottom: 10px;
+  /* height: 50px; */
+}
+
+button.question-button{
+  margin: 5px 20px;
+  background-color: rgb(240, 240, 240);
+  background: transparent;
+  border: 1px solid rgb(170, 170, 170);
+}
